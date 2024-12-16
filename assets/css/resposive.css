@@ -1,0 +1,475 @@
+/* Ipad pro */
+@media (max-width: 1024px) {
+  .logo img {
+    width: 150px;
+    height: 30px;
+  }
+  nav {
+    padding: 23px 20px !important;
+  }
+  .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    gap: 10px;
+  }
+  .search .search-bar {
+    width: 130px;
+    height: 20px;
+    padding: 0 12px 5px;
+    background-size: 12px;
+  }
+  .navbar-nav .nav-link {
+    padding-top: 15px;
+  }
+  .hero .container {
+    position: absolute;
+    left: 2rem;
+  }
+
+  .about-text-center {
+    width: 700px;
+    height: 400px;
+  }
+  .about .about-text {
+    right: 1rem;
+  }
+  .about .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pilar-card-img {
+    height: auto;
+  }
+  .what-we-do {
+    height: 600px;
+  }
+  .what-we-do::before {
+    max-height: 550px;
+  }
+  .what-we-do .container {
+    top: 11.5rem;
+  }
+  .whats-new .news-container {
+    left: 1rem;
+  }
+  .whats-new .card-container {
+    width: auto;
+    max-width: 100%;
+    left: 0;
+  }
+  .line-section img {
+    max-width: 100%;
+  }
+  .resource .resource-container {
+    max-width: 100%;
+    left: 1rem;
+  }
+  .info-card p {
+    min-height: 12vh;
+  }
+  /* footer */
+  .newsletter-form input {
+    padding: 12px 14px;
+  }
+  .copy-rights {
+    margin-left: 1rem;
+  }
+  .search-bar::placeholder {
+    font-size: 11.5px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
+  }
+.home-page .container {
+    max-width: 100%;
+    width: auto;
+}
+}
+
+/* Tablet and ipads */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-text-center {
+    width: 500px;
+    height: auto;
+  }
+  .about .about-text {
+    right: 0;
+    padding: 50px 40px 50px 84px;
+  }
+  .whats-new .card-container {
+    width: auto;
+    position: absolute;
+    left: 0;
+  }
+  .whats-new .news-container {
+    width: auto;
+    position: absolute;
+    left: 0;
+    padding: 0 25px;
+  }
+  .line-section img {
+    width: auto;
+    max-width: 100%;
+  }
+  .hero .container {
+    position: absolute;
+    left: 2rem;
+  }
+  .container {
+    width: auto;
+    max-width: 100%;
+    padding: 0 25px !important;
+  }
+
+  .resource {
+    max-height: 100%;
+    height: auto;
+  }
+  .pilar-card-img {
+    height: auto;
+    max-height: 100%;
+  }
+  .piller-count p:last-child {
+    font-size: 12px;
+  }
+  .piller-count p:first-child {
+    font-size: 24px;
+    line-height: 32.76px;
+  }
+  .pilar-title h5 {
+    font-size: 16px;
+  }
+  .pilar-card-cont {
+    gap: 6px;
+  }
+  .what-we-do .container {
+    width: auto;
+    max-width: 100%;
+  }
+  .what-we-do {
+    height: 500px;
+  }
+  .what-we-do::before {
+    max-height: 450px;
+  }
+  .what-we-do .container {
+    left: 0;
+    top: 9rem;
+  }
+  .whats-new {
+    padding: 95px 0 0;
+  }
+  .whats-new {
+    height: 865.9px;
+  }
+  .resource-card .card-body {
+    padding: 22px 25px 30px 25px;
+  }
+
+  .info-card h3 {
+    font-size: 30px;
+    margin-bottom: 1.8rem;
+    width: 7ch;
+  }
+  .info-section-pattern {
+    margin-bottom: 5rem;
+  }
+  .info-card {
+    height: 100%;
+  }
+  .info-card .vertical-bar {
+    top: 60px;
+  }
+  .info-card p {
+    min-height: 24vh;
+  }
+  /* footer */
+  .tab-width {
+    width: 50%;
+  }
+  .tab-width-subscribe {
+    width: auto;
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  .footer-logo img {
+    margin-left: 32px;
+  }
+  .social-icons {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .copy-rights {
+    margin-left: 0;
+  }
+}
+
+/************  Mobiles *****************/
+@media screen and (max-width: 767px) {
+  /* Header */
+  .search .search-bar {
+    width: 185px;
+    height: 30px;
+  }
+
+  /* End */
+  /* Hero */
+  .hero {
+    height: 260px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .hero .container {
+    left: 1rem;
+    top: 48%;
+    width: auto;
+  }
+
+  .hero p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 31ch;
+  }
+
+  /* End */
+  /* About */
+  .main-title {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .about .container {
+    width: auto;
+    height: 650px;
+  }
+
+  .about {
+    padding: 70px 0 0;
+  }
+
+  .about .about-text {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: -6rem;
+    z-index: 3;
+    padding: 25px 15px 20px 50px;
+  }
+
+  .about-text::before {
+    background-size: 40px 100%;
+    left: 0px;
+  }
+
+  .about .about-text p {
+    padding: 14px 0 14px 0;
+    font-size: 17px;
+  }
+  .about-text-center {
+    height: auto;
+  }
+
+  .what-we-do .container {
+    left: 0;
+    top: 50%;
+  }
+
+  .pilar-cards-div {
+    display: grid;
+    top: 356px;
+  }
+
+  .what-we-do {
+    height: 356px;
+  }
+
+  .what-we-do::before {
+    max-height: 100%;
+  }
+
+  .whats-new {
+    top: 0;
+  }
+
+  .whats-new .news-container {
+    left: 0;
+    z-index: 0;
+    top: 8rem;
+    padding: 0 15px;
+  }
+
+  .whats-new .card-container {
+    position: relative;
+    left: 0;
+    top: 58rem;
+    width: auto;
+  }
+
+  .whats-new {
+    position: relative;
+    height: 100%;
+    top: 98rem;
+    z-index: 3;
+    padding: 7rem 0px 10rem;
+  }
+
+  .resource {
+    height: 100%;
+    overflow: hidden;
+    z-index: 3;
+    position: relative;
+    top: 98rem;
+  }
+
+  .arrow-container {
+    flex-direction: column;
+    width: auto;
+    padding-right: 0;
+  }
+
+  .line-section {
+    display: none;
+  }
+  .line-section {
+    max-width: 100%;
+    width: auto;
+  }
+  .col-card-width {
+    margin-top: 10px;
+  }
+
+  .resource .resource-container {
+    left: 0;
+    top: 3rem;
+    padding: 0 15px;
+    margin-bottom: 5rem;
+  }
+
+  .resource .card {
+    width: 352px;
+  }
+
+  .info-section {
+    z-index: 3;
+    top: 97rem;
+  }
+
+  .info-section .container {
+    width: auto;
+    padding: 5rem 1rem 0rem;
+  }
+
+  .info-card {
+    margin-bottom: 15px;
+  }
+  .partners {
+    top: 97rem;
+    position: relative;
+  }
+  .home-page-body .site-footer {
+    position: relative;
+    top: 95rem;
+  }
+  /* footer*****************/
+
+  .footer-bottom {
+    display: grid;
+    justify-content: center;
+  }
+
+  .copy-rights {
+    margin-left: 0;
+  }
+
+  .social-icons {
+    margin-top: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .subscribe {
+    margin-top: 2rem;
+  }
+
+  .footer-logo img {
+    margin-left: 28px;
+  }
+
+  .m-by {
+    padding-bottom: 1rem !important;
+  }
+
+  .copyrights .container {
+    padding-bottom: 25px;
+  }
+
+  .country-flags {
+    display: flex;
+    justify-content: center;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    padding: 15px 20px;
+  }
+
+  /* End */
+}
+/* Sueface due */
+@media screen and (max-width: 540px) {
+  .whats-new .card-container {
+    top: 60rem;
+  }
+  .resource .resource-container {
+    top: 2rem;
+  }
+  .about .container {
+    width: auto;
+    height: 755px;
+    max-width: 100%;
+  }
+  .about .about-text {
+    padding: 25px 15px 35px 50px;
+  }
+  .pilar-cards-div {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card-container .col-card-width,
+  .resource-card-container .col {
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .resource-card-container {
+    width: auto;
+    max-width: 100%;
+  }
+  .resource-button-section {
+    float: none;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  .quick-links {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.footer-location-align {
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.footer-logo img {
+  margin-left: 5px;
+}
+.site-footer p {
+  margin-top: 0;
+}
+}

@@ -1,0 +1,134 @@
+nav {
+  /* width: 1578.46px; */
+  height: 90.26px;
+  padding: 23px 80px !important;
+}
+
+.navbar-nav .nav-link:hover {
+  /* color: #f58923; */
+  border-bottom: 3px solid #f58923;
+}
+.navbar-collapse {
+  flex-basis: auto;
+  flex-grow: 0;
+  align-items: center;
+}
+.logo img {
+  width: 235.46px;
+  height: 44.26px;
+}
+
+.logo span {
+  font-weight: bold;
+  color: #2a3d8d;
+  font-size: 1.2em;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400;
+  color: #000000;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav {
+  gap: 18px;
+}
+.navbar > .container-fluid {
+  padding: 0;
+}
+.dropdown-menu a {
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f58923;
+  color: #fff;
+}
+.search .form-control:focus {
+  box-shadow: none;
+}
+.search .search-bar {
+  border-radius: 20px;
+  width: 240px;
+  height: 40px;
+  padding: 0 25px;
+  border: 1px solid #f58923;
+  border-radius: 20px;
+}
+.search-bar {
+  background-image: url(../img/Group.png);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+.search{
+  margin-left: 30px;
+}
+.hero {
+  background-image: url("../img/rect117.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  z-index: 1;
+}
+
+.hero .container {
+  position: absolute;
+  left: 12rem;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  padding: 0 15px;
+  z-index: 2;
+}
+.banner-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    display: flex;
+    align-items: center !important;
+    z-index: 3;
+    background: #fff;
+    position: relative;
+    left: 10px;
+    padding: 15px;
+  }
+  nav {
+    height: 115px !important;
+    padding: 7px 10px !important;
+  }
+  .search .search-bar {
+    display: inline;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+  .navbar {
+    padding: 10px 30px !important;
+  }
+  .search {
+    margin-left: 0;
+}
+}

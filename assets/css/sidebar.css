@@ -1,0 +1,43 @@
+.sidebar {
+  position: sticky;
+  top: 14rem;
+  left: 10rem;
+  width: 250px;
+  height: 0;
+  padding-top: 20px;
+}
+
+.content-section {
+  margin-top: 0;
+}
+.content-section:first-of-type {
+  margin-top: 0; 
+}
+.nav-sidebar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-sidebar .menu-item {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-sidebar .menu-item:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.nav-sidebar .menu-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+.sidebar ul {
+  margin-top: 5rem;
+  list-style: none;
+}

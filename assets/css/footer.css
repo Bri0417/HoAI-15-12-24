@@ -1,0 +1,148 @@
+/* General Footer Styling */
+.site-footer {
+    background-color: #000; 
+    color: #fff;
+    padding: 35px 0 0;
+}
+
+.site-footer h4 {
+    font-size: 18px;
+    color: #ff8c00; 
+    margin-bottom: 15px;
+}
+
+.site-footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.footer-logo {
+    margin-bottom: 2rem;
+}
+.footer-logo img {
+    margin-left: 55px;
+}
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-location h5 {
+    color: #999999;
+    font-size: 20px;
+    line-height: 24px;
+}
+.footer-location p,
+.footer-contact {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.footer-location-align {
+    justify-content: center;
+    display: grid;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    width: 120px;
+}
+
+.footer-links li {
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+.footer-links li:first-child {
+    margin-top: 0;
+}
+.footer-links a {
+    font-size: 14px;
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff8c00; 
+}
+
+/* Newsletter Section */
+.subscribe {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.newsletter-form {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 18px 25px;
+    border: none;
+}
+.newsletter-form input::placeholder {
+    font-size: 13px;
+    margin-left: 20px;
+}
+.newsletter-form button {
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #e67700;
+}
+
+/* Social Icons */
+.social-icons a img {
+    vertical-align: baseline;
+}
+.social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 5rem;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 4rem;
+}
+.social-icons h4 {
+    margin-bottom: 0;
+}
+.social-img {
+    display: flex;
+    gap: 20px;
+}
+/* Footer Bottom Section */
+
+.copyrights {
+    background: #fff;
+    padding: 0;
+    color: #000;
+}
+.copyrights .container{
+    /* width: 1140px; */
+    border-top: none;
+}
+.footer-bottom {
+    /* border-top: 1px solid #444; */
+    margin-top: 3.5rem;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.copy-rights {
+    margin-left: 4rem;
+}
+.country-flags img {
+    width: 40px;
+    height: 20px;
+    margin-right: 5px;
+}

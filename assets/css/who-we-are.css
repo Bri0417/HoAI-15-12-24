@@ -1,0 +1,385 @@
+/* Who we are page styele with Resposive */
+
+/* Banner Styles*/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    max-height: 100%;
+    background-image: url("../img/what-we-do/Banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.banner-container {
+    width: 1140px;
+    max-width: 100%;
+}
+.banner-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.banner .container h1 {
+    text-align: left;
+}
+/* End */
+.who-we-are-main section {
+    padding: 50px 0;
+}
+.who-we-are-main .section-heading {
+    color: #123a3a;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+.who-we-are-main p {
+    margin: 25px 0;
+}
+.who-we-are-main .development-partners {
+    margin-top: 0;
+}
+/* Sidebar Styles */
+.nav-sidebar {
+    padding: 0 !important;
+}
+
+.nav-sidebar {
+    width: 230px;
+    /* position: sticky; */
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    /* background: #007bff; */
+    color: #f58923;
+}
+
+.glance-container {
+    width: 1140px;
+    display: flex;
+    justify-content: right;
+    gap: 100px;
+}
+
+.section-content{
+    width: 810px;
+}
+/* member state ********/
+.member-state {
+    background-color: #f2f2f2;
+}
+.member-states-container,
+.container-common-width {
+    width: 810px;
+    position: relative;
+    left: 10.2rem;
+}
+.following-country-card {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 30px;
+}
+.member-states-countries h5 {
+    color: #123a3a;
+    padding: 40px 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.country-card {
+    display: grid;
+    gap: 10px;
+    padding: 30px;
+    background-color: #fff;
+}
+.card-img img {
+    padding-bottom: 14px;
+}
+.country-name h6 {
+    color: #123a3a;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.9px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.country-name p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+    margin: 0 0 10px;
+}
+
+/* ministerial platform */
+.ministerial-member-card {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 30px;
+    padding-top: 35px;
+}
+.ministerial-platform-para p:last-child {
+    margin-bottom: 0;
+}
+.ministerial-member {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+}
+.ministerial-member-details h6 {
+    color: #123a3a;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 25px;
+}
+.ministerial-member-details p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 12px;
+    margin: 0;
+}
+.m-social-icon {
+    display: flex;
+    float: right;
+    padding-top: 20px;
+    gap: 5px;
+}
+/* permenant */
+.permenmt-card {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    gap: 30px;
+}
+.permenmt-card-sub {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.permenmt-card-cont p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 58px;
+}
+/* Development-partners */
+.development-partners {
+    background-color: #fff;
+}
+.development-partners .country-card {
+    box-shadow: 0px 0px 15px 0px #00000026;
+}
+.development-partners-pdf {
+    margin-top: 20px;
+    display: flex;
+    gap: 8px;
+}
+.development-partners-pdf p {
+    font-size: 16px;
+    border-bottom: 1px solid #ed1c24;
+}
+
+.development-partners-green-card {
+    background: #123a3a;
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.active-project {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 10px;
+    padding: 60px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.active-project-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-right: 1px solid #087f79;
+    padding-right: 30px;
+}
+.active-project-count span {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    color: #000;
+    background-image: url(../img/what-we-do/orange-bg.png);
+    background-size: 125px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-project-count p {
+    color: #fff;
+    font-size: 16px;
+}
+.active-project-total {
+    display: grid;
+    justify-content: center;
+}
+.active-project-total .color-text {
+    color: #f58923;
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 700;
+}
+.active-project-total p {
+    color: #fff;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 300;
+    margin: 0;
+}
+.active-project-total span {
+    color: #fff;
+}
+/* Responsive********************* */
+@media (max-width: 1024px) {
+.glance-container {
+    max-width: 100%;
+    width: auto;
+    gap: 20px;
+}
+.section-content {
+    width: 720px !important;
+}
+.member-states-container, .container-common-width {
+    width: 720px;
+    left: 5rem;
+}
+.glance-contents img{
+    width: auto;
+    max-width: 100%;
+}
+.ministerial-member-card {
+    grid-template-columns: repeat(2, 1fr);
+}
+.development-partners-green-card {
+    padding: 0px 30px;
+}
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .glance-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-content {
+        margin-top: 11rem;
+    }
+    .glance-contents img{
+        width: auto;
+        max-width: 100%;
+    }
+    .member-states-container, .container-common-width {
+        position: unset;
+    }
+    .ministerial-member-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .development-partners-green-card {
+        padding: 0px 30px;
+    }
+    
+}
+/* Responsive Mobile */
+@media (max-width: 767px) {
+    .banner {
+        height: 200px;
+    }
+    .banner h1 {
+        font-size: 2rem;
+    }
+    .banner-container {
+        width: auto;
+        max-width: 100%;
+    }
+    .glance-container {
+        max-width: 100%;
+        width: auto;
+        display: grid;
+    }
+    .glance-contents img {
+        max-width: 100%;
+        width: auto;
+    }
+    /* .section-content {
+        margin-top: 11rem;
+    } */
+    .section-content {
+        margin-top: 15rem;
+        width: auto !important;
+    }
+    .member-states-container,
+    .container-common-width {
+        width: auto;
+        position: unset;
+    }
+    .following-country-card,
+    .ministerial-member-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .permenmt-card-sub {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .permenmt-card-cont p {
+        padding-right: 0px;
+    }
+    .active-project {
+        display: flex;
+        flex-direction: column;
+    }
+    .active-project-count {
+        border-bottom: 1px solid #087f79;
+        padding-bottom: 30px;
+        border-right: none;
+        padding-right: 0px;
+    }
+    .development-partners-green-card {
+        padding: 0px 30px;
+    }   
+    .active-project-total {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+    .banner-container {
+        width: auto;
+        max-width: 100%;
+    }
+}
