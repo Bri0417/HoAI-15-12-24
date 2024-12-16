@@ -146,3 +146,6 @@
     height: 20px;
     margin-right: 5px;
 }
+.site-footer p {
+    margin-top: 0;
+}
