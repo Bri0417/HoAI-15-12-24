@@ -5,7 +5,6 @@ nav {
 }
 
 .navbar-nav .nav-link:hover {
-  /* color: #f58923; */
   border-bottom: 3px solid #f58923;
 }
 .navbar-collapse {
@@ -25,12 +24,14 @@ nav {
 }
 
 .navbar-nav .nav-link {
+  font-size: 15px;
+  line-height: 18px;
   font-weight: 400;
   color: #000000;
-  padding-top: 7px;
-  padding-bottom: 15px;
+
   text-transform: uppercase;
 }
+
 .navbar-expand-lg .navbar-nav {
   gap: 18px;
 }
@@ -62,7 +63,7 @@ nav {
   background-repeat: no-repeat;
   padding-left: 30px;
 }
-.search{
+.search {
   margin-left: 30px;
 }
 .hero {
@@ -81,11 +82,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-  );
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
   z-index: 1;
 }
 
@@ -102,6 +99,36 @@ nav {
   background: rgba(0, 0, 0, 0.6);
   padding: 20px 40px;
   border-radius: 8px;
+}
+
+/* 16-12-24 */
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+.navbar > .container-fluid {
+  gap: 80px;
+  justify-content: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-nav .nav-link {
+  padding-top: 7px;
+  transition: padding 0.2s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+.navbar > .container-fluid {
+  gap: 25px;
+}
+.navbar-expand-lg .navbar-nav {
+  gap: 15px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -130,5 +157,5 @@ nav {
   }
   .search {
     margin-left: 0;
-}
+  }
 }

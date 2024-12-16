@@ -82,9 +82,16 @@
   .navbar-expand-lg .navbar-nav {
     align-items: center;
   }
-.home-page .container {
+.home-page-body .container {
     max-width: 100%;
     width: auto;
+    padding: 0 25px;
+}
+.resource {
+  height: 970px;
+}
+.info-section-pattern{
+  padding-bottom: 80px;
 }
 }
 
