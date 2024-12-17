@@ -330,8 +330,9 @@ body {
   color: white;
 }
 .card-gap {
+  width: 354px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 .card-gap .col-card-width{
@@ -359,7 +360,7 @@ body {
 .card-body .date-card {
   color: #123a3a;
   font-size: 16px;
-  list-style: 19.2px;
+  line-height: 19.2px;
 }
 .card-body .card-title {
   font-size: 21px;
@@ -454,6 +455,9 @@ body {
   background-color: #ff7e00;
   color: #fff;
 }
+.card-gap .col-card-width:first-child {
+padding-left: 15px;
+}
 /* What new End ************************/
 
 /* Resource Section */
@@ -484,8 +488,8 @@ body {
 
 .resource-button-section {
   float: right;
-  margin-bottom: 22px;
-  margin-top: 35px;
+  margin-bottom: 16px;
+  margin-top: 38px;
 }
 .resource-button-section .v-all {
   border: 1px solid #000;
@@ -550,7 +554,7 @@ height:52px
 
 /* Card Body Styling */
 .resource-card .card-body {
-  padding: 22px 45px 40px 45px;
+  padding: 22px 45px 35px 45px;
   border-radius: 12px;
   background-color: #f2f2f2;
   position: relative;
@@ -571,7 +575,7 @@ height:52px
 .info-section {
   background: url("../img/info-bg.png") no-repeat center center/cover;
   position: relative;
-  padding: 0 0 90px;
+  padding: 0 0 65px;
 }
 
 .info-section::before {
@@ -589,15 +593,17 @@ height:52px
   position: relative;
   z-index: 2;
   width: 1140px;
-  padding: 10rem 0 6rem;
+  padding: 148px 0 116px;
 }
 
 /* Card Styling */
 .info-card {
+  width: auto;
+  max-width: 100%;
   background: none;
   border: 1px solid #000;
   border-radius: 12px;
-  padding: 60px 35px 50px 35px;
+  padding: 47px 35px 46px 32px;
   text-align: left;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -608,19 +614,20 @@ height:52px
   font-size: 40px;
   font-weight: 400;
   color: #000;
-  margin-bottom: 1.8rem;
+  margin-bottom: 18px;
   width: 12ch;
 }
 
 .info-card p {
   font-size: 18px;
+  line-height: 21.6px;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 1.6rem;
 }
 
 .info-card .vertical-bar {
   position: absolute;
-  top: 70px;
+  top: 55px;
   left: 0;
   width: 10.6px;
   height: 79.4px;
@@ -643,20 +650,30 @@ height:52px
 }
 
 .info-section-pattern {
+  height: 58px;
   overflow: hidden;
   z-index: 2;
   position: relative;
 }
+
+.info-section .info-section-card-width{
+  width: 360px;
+    height: 390px;
+}
 /* Members */
 
 .member-states {
-  margin-top: 60px;
+  padding: 10px 0;
+  margin-top: 32px;
+}
+.partners .section-title h1{
+  padding: 10px 0;
 }
 .development-partners-section {
-  margin-top: 6rem;
+  margin-top: 72px;
 }
 .partners {
-  padding: 100px 0 120px 0;
+  padding: 142px 0 134px 0;
   background: #fff;
   text-align: center;
 }
@@ -668,11 +685,11 @@ height:52px
   color: #123a3a;
 }
 .development-partners {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .regional-organizations {
-  margin-top: 5rem;
+  margin-top: 72px;
 }
 .regional {
-  margin-top: 3.2rem;
+  margin-top: 40px;
 }

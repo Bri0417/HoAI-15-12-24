@@ -10,19 +10,29 @@
     color: #ff8c00; 
     margin-bottom: 15px;
 }
-
+.footer-logo-sec {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
 .site-footer p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 .footer-logo {
-    margin-bottom: 2rem;
+    margin-bottom: 28px;
 }
 .footer-logo img {
     margin-left: 55px;
+    padding-left: 40px;
+}
+.footer-collection{
+    justify-content: center;
+    gap: 75px;
+
 }
 .quick-links {
+    gap: 44px;
     display: flex;
     justify-content: space-around;
 }
@@ -37,6 +47,7 @@
     font-size: 14px;
 }
 .footer-location-align {
+    width: 291px;
     justify-content: center;
     display: grid;
 }
@@ -66,7 +77,9 @@
 .footer-links a:hover {
     color: #ff8c00; 
 }
-
+.quick-links-section{
+    width: 284px;
+}
 /* Newsletter Section */
 .subscribe {
     font-size: 21px;
@@ -100,7 +113,9 @@
 .newsletter-form button:hover {
     background-color: #e67700;
 }
-
+.tab-width-subscribe {
+    width:395px
+}
 /* Social Icons */
 .social-icons a img {
     vertical-align: baseline;
