@@ -324,6 +324,7 @@ body {
   top: 532px;
   transform: translateY(-50%);
   text-align: left;
+  padding-right: 0;
   overflow: hidden;
 
 }
