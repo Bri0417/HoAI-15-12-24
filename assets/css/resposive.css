@@ -5,7 +5,8 @@
     height: 30px;
   }
   nav {
-    padding: 23px 20px !important;
+    /* padding: 23px 20px !important; */
+    padding: 23px 80px !important;
   }
   .navbar-nav .nav-link {
     font-size: 12px;

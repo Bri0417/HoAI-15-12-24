@@ -32,11 +32,14 @@ nav {
   text-transform: uppercase;
 }
 
-.navbar-expand-lg .navbar-nav {
-  gap: 18px;
+.navbar .navbar-nav {
+  gap: 34px;
+  align-items: center;
+  justify-content: space-between;
 }
 .navbar > .container-fluid {
   padding: 0;
+  align-items: center;
 }
 .dropdown-menu a {
   color: #333;
@@ -53,7 +56,6 @@ nav {
   border-radius: 20px;
   width: 240px;
   height: 40px;
-  padding: 0 25px;
   border: 1px solid #f58923;
   border-radius: 20px;
 }
@@ -61,7 +63,16 @@ nav {
   background-image: url(../img/Group.png);
   background-position: right 10px center;
   background-repeat: no-repeat;
-  padding-left: 30px;
+  padding-right: 30px;
+  padding-left: 25px;
+  padding-bottom: 13px;
+  padding-top: 10px;
+  background-size: 13.59px;
+}
+.search-bar::placeholder{
+  font-size: 12px;
+  line-height: 14.4px;
+  margin-bottom: 13px !important;
 }
 .search {
   margin-left: 30px;
@@ -87,9 +98,13 @@ nav {
 }
 
 .hero .container {
+  width: auto;
+  max-width: 100%;
   position: absolute;
-  left: 12rem;
-  top: 50%;
+  left: 200px;
+  /* left: 12rem; */
+  /* top: 50%; */
+  top:334px;
   transform: translateY(-50%);
   text-align: left;
   padding: 0 15px;
@@ -102,35 +117,29 @@ nav {
 }
 
 /* 16-12-24 */
-.navbar-expand-lg .navbar-nav {
-  align-items: center;
-}
-.navbar > .container-fluid {
-  gap: 80px;
-  justify-content: center;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
+
+.navbar .navbar-nav .nav-link {
+  padding: 0;
   padding-right: 0;
   padding-left: 0;
 }
 .navbar-nav .nav-link {
   padding-top: 7px;
-  transition: padding 0.2s ease-in-out;
+  transition: padding 0.3s ease-in-out;
 }
 .navbar-nav .nav-link:hover {
   padding-bottom: 15px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-@media (min-width: 1024px) {
-.navbar > .container-fluid {
-  gap: 25px;
+@media (max-width: 1440px){
+  .navbar-expand-lg .navbar-nav {
+    gap: 21px;
 }
-.navbar-expand-lg .navbar-nav {
-  gap: 15px;
+.search {
+  margin-left: 18px;
 }
 }
-
 @media screen and (max-width: 768px) {
   .navbar-collapse {
     display: flex;

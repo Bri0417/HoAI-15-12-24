@@ -45,11 +45,13 @@ body {
   font-size: 40px;
   line-height: 48px;
   color: #123a3a;
+
 }
 .section-title h1 {
   font-size: 40px;
   line-height: 48px;
   margin-bottom: 30px;
+  /* padding: 10px; */
 }
 .section-title p {
   font-size: 18px;
@@ -59,11 +61,14 @@ body {
 .hero h1 {
   font-size: 60px;
   line-height: 72px;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
+  font-weight: 700;
 }
 .hero p {
   font-size: 22px;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
+  margin-bottom: 37px;
+  line-height: 26.4px;
 }
 .cta {
   padding: 10px 20px;
@@ -93,17 +98,21 @@ body {
   flex: 1;
   color: #4d4d4d;
   position: absolute;
-  right: 200px;
+  /* right: 200px; */
+  right: 174px;
   z-index: 3;
-  padding: 50px 62px 50px 84px;
+  padding: 40px 60px 51px 72px;
+  margin-bottom: 1px;
+  /* padding: 50px 62px 50px 84px; */
 }
 .about .about-text p {
-  padding: 32px 0 32px 0;
+  padding: 20px 0 39px 0;
   font-size: 18px;
-  line-height: 25.6px;
+  line-height: 21.6px;
 }
 .about-text-center {
-  width: 809.9px;
+  /* width: 809.9px; */
+  width: 797.9px;
   height: 329.7px;
   background-color: #ffffff;
 }
@@ -122,12 +131,23 @@ body {
   content: "";
   position: absolute;
   top: 2px;
-  left: 15px;
+  left: 13px;
   width: 40px;
-  height: 99%;
+  /* height: 99%; */
+  height: 325.6px;
   background-image: url("../img/left-border.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.about-image{
+  padding-left: 21px;
+}
+.about-image .img-fluid {
+  width: 524px;
+  height: 524px;
+}
+.about-text .main-title {
+  /* padding: 10px 0; */
 }
 /* What we do */
 .what-we-do {
@@ -161,12 +181,14 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
   max-height: 682px;
+  /* max-height: 720px; */
 }
 
 .what-we-do .container {
+  width: auto;
   position: absolute;
-  left: 12rem;
-  top: 25%;
+  left: 200px;
+  top: 150px;
   transform: translateY(-50%);
   text-align: left;
   padding: 0 15px;
@@ -177,7 +199,7 @@ body {
   position: absolute;
   z-index: 3;
   display: flex;
-  gap: 6px;
+  gap: 7px;
 }
 .sub-pilar-card {
   display: flex;
@@ -228,11 +250,12 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 20px 26px;
+  /* padding: 20px 26px; */
+  padding: 58px 26px 21px 41px;
   color: white;
   z-index: 2;
   display: flex;
-  gap: 15px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   background: none;
@@ -281,23 +304,24 @@ body {
 .whats-new {
   background: #0f0f0e;
   position: relative;
-  height: 941.9px;
+  height: 922.9px;
   /* height: 850.9px; */
 }
 
 .whats-new .news-container {
+  width: auto;
   position: absolute;
-  left: 12rem;
-  top: 15%;
+  left: 200px;
+  top: 126px;
   transform: translateY(-50%);
   text-align: left;
   z-index: 2;
 }
 .whats-new .card-container {
-  width: 1140px;
+  width: auto;
   position: absolute;
-  left: 12rem;
-  top: 60%;
+  left: 200px;
+  top: 532px;
   transform: translateY(-50%);
   text-align: left;
 }
@@ -305,10 +329,18 @@ body {
   padding: 95px 0;
   color: white;
 }
-
-.card-container .card {
-  max-width: 356px;
-  border: none;
+.card-gap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.card-gap .col-card-width{
+  padding: 0;
+  width: 356px;
+  height: 520px !important;
+}
+.whats-new .card-container .card {
+ border: none;
 }
 .card-container .card img {
   max-width: 356px;
@@ -317,8 +349,8 @@ body {
 
 .date-card {
   border-bottom: 1px solid #f58923;
-  padding-bottom: 20px;
-  margin-bottom: 24px;
+  padding-bottom: 18px;
+  /* margin-bottom: 24px; */
 }
 .card-body {
   color: #0f0f0e;
@@ -331,9 +363,18 @@ body {
 }
 .card-body .card-title {
   font-size: 21px;
-  line-height: 27px;
+  line-height: 25.2px;
   font-weight: 700;
-  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.resource-card .card-body .card-title {
+  padding-top: 13px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+.resource-card .card-body .date-card {
+  margin-bottom: 0;
 }
 .card-button a {
   text-decoration: none;
@@ -345,11 +386,17 @@ body {
   border: none;
 }
 .read-more {
+  background: none;
+  border: none;
   display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
-  font-size: 16px;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+.read-more:hover{
+  color: #FF7E00;
 }
 .read-more::after {
   content: url("../img/Union.png");
@@ -357,6 +404,9 @@ body {
   margin-left: 10px;
   transform: scale(0.9);
   /* transform: scale(1.2, 1); */
+}
+.info-card .learn-more:hover{
+  /* color: #000; */
 }
 .arrow-container {
   margin-top: 35px;
@@ -409,14 +459,14 @@ body {
 /* Resource Section */
 .resource {
   background: #f9f9f9;
-  height: 1025px;
+  height: auto;
   /* height: 970px; */
   overflow: hidden;
 }
 .resource .resource-container {
   position: relative;
-  left: 6rem;
-  top: 3rem;
+  left: 95px;
+  top: 36px;
   margin-bottom: 5rem;
 }
 
@@ -460,6 +510,25 @@ body {
   width: 300px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.resource-card-container .col{
+  width: 360px;
+  height: 552px;
+  padding: 0;
+}
+.resource-card-width{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.resource-pattern img{
+height:52px
+}
+
+/* .resource-card {
+  width: 360px;
+  height: 552px;
+} */
 /* START */
 
 /* General Card Styling */
@@ -473,8 +542,8 @@ body {
 
 /* Card Image Section */
 .resource-card .resource-card-img img {
-  width: 100%; /* Full width */
-  height: auto;
+  width: 360px;
+  height: 362px;
   display: block;
   margin-bottom: -40px;
 }
@@ -559,6 +628,8 @@ body {
 }
 
 .info-card .learn-more {
+  background: none;
+  border: none;
   font-size: 12px;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
