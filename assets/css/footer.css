@@ -29,6 +29,7 @@
 .footer-collection{
     justify-content: center;
     gap: 75px;
+    padding-bottom: 48px;
 
 }
 .quick-links {
@@ -95,6 +96,7 @@
     flex: 1;
     padding: 18px 25px;
     border: none;
+    outline: none;
 }
 .newsletter-form input::placeholder {
     font-size: 13px;
@@ -147,19 +149,22 @@
 }
 .footer-bottom {
     /* border-top: 1px solid #444; */
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
 }
 .copy-rights {
-    margin-left: 4rem;
+    margin-left: 100px;
 }
 .country-flags img {
-    width: 40px;
+    width: auto;
     height: 20px;
     margin-right: 5px;
+}
+.country-flags {
+    margin-right: 94px;
 }
 .site-footer p {
     margin-top: 0;

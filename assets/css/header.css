@@ -49,6 +49,8 @@ nav {
   background-color: #f58923;
   color: #fff;
 }
+
+/* Menu */
 .search .form-control:focus {
   box-shadow: none;
 }
@@ -116,6 +118,10 @@ nav {
   border-radius: 8px;
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
 /* 16-12-24 */
 
 .navbar .navbar-nav .nav-link {
