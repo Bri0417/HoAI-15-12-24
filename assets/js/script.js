@@ -7,8 +7,8 @@
           onOverflowX:function(){
             console.log("Horizontal scrolling required");
           }
-      }
-
+      },
+      scrollButtons:{ enable: true }
       });
   });
 })(jQuery);

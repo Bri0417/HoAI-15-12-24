@@ -320,10 +320,12 @@ body {
 .whats-new .card-container {
   width: auto;
   position: absolute;
-  left: 200px;
+  left: 198px;
   top: 532px;
   transform: translateY(-50%);
   text-align: left;
+  /* padding-right: 0; */
+
 }
 .whats-new {
   padding: 95px 0;
@@ -333,7 +335,7 @@ body {
   width: 354px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 38px;
 }
 .card-gap .col-card-width{
   padding: 0;
@@ -693,3 +695,11 @@ height:52px
 .regional {
   margin-top: 40px;
 }
+/* Custom Scorller */
+
+  .mCS-inset.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+    width: 97px;
+  }
+  .mCSB_dragger{
+    max-width: 97px !important;
+  }
