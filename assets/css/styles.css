@@ -324,7 +324,7 @@ body {
   top: 532px;
   transform: translateY(-50%);
   text-align: left;
-  /* padding-right: 0; */
+  overflow: hidden;
 
 }
 .whats-new {
@@ -730,4 +730,8 @@ height:52px
 }
 .mCSB_scrollTools.mCSB_scrollTools_horizontal a + .mCSB_draggerContainer {
   width: 948.8px;
+}
+
+.mCustomScrollBox {
+  overflow: unset;
 }
