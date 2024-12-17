@@ -2,7 +2,7 @@
   $(window).on("load",function(){
       $(".card-container").mCustomScrollbar({
           axis:"x",
-        theme:"inset",
+        theme:"light",
         callbacks:{
           onOverflowX:function(){
             console.log("Horizontal scrolling required");
