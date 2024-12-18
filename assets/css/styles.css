@@ -421,6 +421,12 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+  position: relative;
+  top: 43rem;
+  right: 170px;
+  float: right;
+  width: auto;
+  max-width: 100%;
 }
 
 .left-arrow-hover {
@@ -428,7 +434,7 @@ body {
   width: 35px;
   height: 35px;
 }
-.left-arrow-hover:hover {
+/* .left-arrow-hover:hover {
   background: url("../img/round-arrow-hover.svg");
   width: 35px;
   height: 35px;
@@ -448,10 +454,10 @@ body {
 .arrow-section {
   display: flex;
   gap: 6px;
-}
-.line-section img {
+} */
+/* .line-section img {
   width: 875px;
-}
+} */
 .button-section .rd-more {
   border: 1px solid #ff7e00;
   color: #ff7e00;

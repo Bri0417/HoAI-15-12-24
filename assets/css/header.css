@@ -1,6 +1,59 @@
+/* General Dropdown Styling */
+.navbar-nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  z-index: 1000; 
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+.sub-menu-str {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}  
+
+/* Show Dropdown on Hover */
+.navbar-nav .nav-item:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Submenus to appear to the right */
+.dropdown-menu .dropdown-menu {
+  top: 10px;
+  left: 100%; 
+}
+
+/* Align Right Arrow in Dropdown */
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  white-space: nowrap; 
+}
+
+/* Add Space Between Main Menu and Submenu */
+.navbar-nav .dropdown-menu li {
+  border-bottom: 1px solid #eee; 
+}
+
+.navbar-nav .dropdown-menu li:last-child {
+  border-bottom: none;
+}
+/* Fix submenu hover cut-off */
+.dropdown-menu .dropdown-item {
+  position: relative;
+}
+/* //////////////////////////////////////////////////////////// */
 .navbar {
   box-shadow: 0px 4px 15px 0px #00000026;
-  position: fixed;
+  /* position: fixed; */
   z-index: 9;
   max-width: 100%;
   width: 1578.46px;
@@ -17,7 +70,7 @@
 }
 
 .navbar-nav a:hover {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   color: #ff6600;
 }
 
@@ -61,7 +114,9 @@
 .dropdown-toggle::after {
   display: none;
 }
+/* 18-12-2024 */
 
+/* 11-12-24 style */
 nav {
   /* width: 1578.46px; */
   height: 90.26px;
