@@ -430,30 +430,7 @@ body {
   width: 35px;
   height: 35px;
 }
-/* .left-arrow-hover:hover {
-  background: url("../img/round-arrow-hover.svg");
-  width: 35px;
-  height: 35px;
-  background-size: 35px;
-}
-.right-arrow-hover {
-  transform: rotate(90deg);
-  width: 35px;
-  height: 35px;
-}
-.right-arrow-hover:hover {
-  background: url("../img/round-arrow-hover.svg");
-  background-size: 35px;
-  width: 35px;
-  height: 35px;
-}
-.arrow-section {
-  display: flex;
-  gap: 6px;
-} */
-/* .line-section img {
-  width: 875px;
-} */
+
 .button-section .rd-more {
   border: 1px solid #ff7e00;
   color: #ff7e00;
