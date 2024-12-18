@@ -92,10 +92,6 @@
   left: 100%;
 }
 
-/* .nav-item {
-  position: relative;
-} */
-
 /* Display Submenus on Hover */
 .nav-item:hover > .sub-menu,
 .sub-menu li:hover > .inner-sub-menu {
@@ -107,7 +103,6 @@
 .dropdown-toggle::after {
   display: none;
 }
-/* 18-12-2024 */
 
 /* 11-12-24 style */
 nav {
