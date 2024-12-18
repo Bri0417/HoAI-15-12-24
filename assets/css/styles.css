@@ -415,12 +415,8 @@ body {
 .info-card .learn-more:hover{
   /* color: #000; */
 }
-.arrow-container {
-  margin-top: 35px;
-  padding-left: 0;
-  display: flex;
-  align-items: center;
-  gap: 30px;
+.button-section {
+  margin-top: 12px;
   position: relative;
   top: 43rem;
   right: 170px;

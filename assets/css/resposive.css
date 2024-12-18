@@ -432,7 +432,8 @@
 /* Sueface due */
 @media screen and (max-width: 540px) {
   .whats-new .card-container {
-    top: 60rem;
+    /* top: 60rem; */
+    top: 442px;
   }
   .resource .resource-container {
     top: 2rem;
