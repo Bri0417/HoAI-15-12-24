@@ -224,7 +224,8 @@ body {
 .pilar-card-img {
   position: relative;
   width: 100%;
-  height: 390px;
+  /* height: 390px; */
+  height: auto;
 }
 
 .pilar-card-img img {
@@ -331,10 +332,13 @@ body {
   overflow: hidden;
 
 }
+
 .whats-new {
   padding: 95px 0;
   color: white;
+  overflow: hidden;
 }
+
 .card-gap {
   width: 354px;
   display: grid;
