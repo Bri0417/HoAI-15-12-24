@@ -36,7 +36,7 @@
     right: 25px !important;
   }
   .about-image {
-    padding-left:0;
+    padding-left: 0;
   }
   .about .about-text {
     display: flex;
@@ -112,7 +112,7 @@
   }
   .whats-new .card-gap {
     gap: 22px;
-}
+  }
 }
 @media (min-width: 1200px) {
   .country-flags {
@@ -146,16 +146,16 @@
   }
   .info-section .justify-content-center {
     padding: 0 18px;
-}
-.about-image {
-  padding-left: 5px;
-}
-.about .about-text {
-  right: 30px !important;
-}
-.card-gap {
-  gap: 50px;
-}
+  }
+  .about-image {
+    padding-left: 5px;
+  }
+  .about .about-text {
+    right: 30px !important;
+  }
+  .card-gap {
+    gap: 50px;
+  }
 }
 /* Tablet and ipads */
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -168,7 +168,7 @@
     padding: 50px 40px 50px 84px;
   }
   .about-text::before {
-   height: 412px;
+    height: 412px;
   }
   .whats-new .card-container {
     width: auto;
@@ -261,7 +261,7 @@
     justify-content: unset !important;
     gap: 20px;
   }
- 
+
   /* footer */
   .tab-width {
     width: auto;
@@ -425,7 +425,7 @@
   .whats-new .card-container {
     position: relative;
     left: 0;
-    top: 58rem;
+    top: 27rem;
     width: auto;
   }
 
@@ -589,7 +589,7 @@
   /* End */
 }
 /* Sueface due */
-@media only screen and (min-width: 540px) and (max-width: 720px) and (orientation: portrait) {
+@media only screen and (max-width: 540px) {
   .whats-new .card-container {
     /* top: 60rem; */
     top: 442px;
@@ -651,20 +651,45 @@
   }
   .footer-logo img {
     padding-left: 0;
-}
-nav {
-  height: 90px !important;
-}
-.about .about-text {
-  top: -10rem;
-}
-.about-text::before {
-  height: 254px;
-}
-.about {
-  padding: 70px 0 45px;
-}
+  }
+  nav {
+    height: 90px !important;
+  }
+  .about .about-text {
+    top: -10rem;
+  }
+  .about-text::before {
+    height: 254px;
+  }
+  .about {
+    padding: 70px 0 45px;
+  }
 }
 @media only screen and (min-width: 540px) and (max-width: 720px) and (orientation: landscape) {
-  /* Your styles for Microsoft Surface Duo in landscape orientation */
+  .about .container {
+    height: auto !important;
+  }
+  .whats-new .container {
+    padding: 0px 17px !important;
+    max-width: 100%;
+}
+.whats-new  .card-gap .col-card-width {
+  width: 328px !important;
+}
+.whats-new .card-gap {
+  gap: 38px;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  width: 500px;
+}
+.button-section {
+  right: 15px;
+}
+.resource .resource-container {
+  max-width: 100%;
+}
+.resource-card-container {
+  max-width: 100%;
+  padding: 0 25px;
+}
 }
