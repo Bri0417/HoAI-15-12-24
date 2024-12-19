@@ -427,6 +427,50 @@
     padding: 15px 20px;
   }
 
+  .about-image {
+    padding-left: 0;
+}
+.about-image .img-fluid {
+  height: auto;
+}
+.about-text::before {
+  height: 298px;
+}
+.about .container {
+  height: 650px !important;
+}
+.home-page-body .container {
+  padding: 0px 17px !important;
+}
+.card-gap .col-card-width {
+  width: 356px !important;
+  height: 520px !important;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  width: 175px;
+  left: 75px;
+  bottom: -35px;
+}
+.button-section {
+  margin-top: 12px;
+  position: relative;
+  top: 56px;
+  right: 5px;
+  float: right;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+  left: -40px;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+  left: -70px;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  left: 70px;
+}
+.whats-new {
+  padding: 7rem 0px 7rem !important;
+}
+
   /* End */
 }
 /* Sueface due */

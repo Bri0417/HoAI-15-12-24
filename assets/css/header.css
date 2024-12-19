@@ -247,7 +247,7 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-left: 18px;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar-collapse {
     display: flex;
     align-items: center !important;
@@ -269,7 +269,7 @@ input[type="search"]::-webkit-search-cancel-button {
     flex-grow: 1;
   }
   .navbar {
-    padding: 10px 30px !important;
+    padding: 10px 15px !important;
   }
   .search {
     margin-left: 0;
@@ -277,4 +277,5 @@ input[type="search"]::-webkit-search-cancel-button {
   .navbar-expand-lg .navbar-collapse {
     height: 400px;
   }
+ 
 }
