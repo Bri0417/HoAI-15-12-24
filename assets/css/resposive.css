@@ -1,11 +1,41 @@
 /* Ipad pro */
+@media (min-width: 1366px) and (max-width: 1367px) {
+  .country-flags {
+    margin-right: 0;
+  }
+  .copy-rights {
+    margin-left: 15px;
+  }
+  .what-we-do .container {
+    left: 120px;
+    top: 200px;
+  }
+  .whats-new .news-container {
+    left: 140px;
+  }
+  .whats-new .card-container {
+    left: 140px;
+    overflow: visible;
+  }
+  .resource .resource-container {
+    left: 0px;
+  }
+  .button-section {
+    right: 68px;
+  }
+  .footer-logo img {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+/* Ipad pro */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .logo img {
     width: 150px;
     height: 30px;
   }
   nav {
-    /* padding: 23px 20px !important; */
     padding: 23px 80px !important;
   }
   .navbar-nav .nav-link {
@@ -67,6 +97,7 @@
   }
   .what-we-do .container {
     top: 11.5rem;
+    left: 0;
   }
   .whats-new .news-container {
     left: 1rem;
@@ -137,13 +168,7 @@
     top: 43.4rem;
     right: 20px;
   }
-  .resource-card .resource-card-img img {
-    width: 305px;
-    height: 320px;
-  }
-  .resource-card-container .col {
-    width: 305px;
-  }
+
   .resource-card .card-body {
     min-height: 18vh;
   }
@@ -151,25 +176,11 @@
     margin-top: 12px;
   }
   .info-section .info-section-card-width {
-    width: 33.33333333%;
     height: auto;
+    width: 360px;
   }
 }
-@media (min-width: 1200px) {
-  /* .country-flags {
-    margin-right: 0;
-  }
-  .copy-rights {
-    margin-left: 0;
-  } */
-  .what-we-do .container {
-    top: 190px;
-  }
-
-  .whats-new .card-container {
-    overflow: visible;
-  }
-}
+/* Lanscap */
 /* Ipad air */
 @media only screen and (min-width: 820px) and (max-width: 1180px) {
   .footer-location-align {
