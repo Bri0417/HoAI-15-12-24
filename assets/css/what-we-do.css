@@ -1,0 +1,86 @@
+/* What-we-do Desktop and Responsive styles */
+
+.main-what-we-do .banner{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    max-height: 100%;
+    background-image: url(../img/what-we-do/what-we-do.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.main-what-we-do .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 1;
+}
+.main-what-we-do .banner .banner-container{
+    z-index: 2;
+}
+.tab-full-width{
+    margin: 0;
+    padding: 0;
+}
+.wwd-tab .nav-tabs{
+    justify-content: center;
+}
+.wwd-tab .nav-tabs .nav-link {
+    margin-bottom: 0;
+    border: 0;
+}
+.wwd-tab .tab-content-container{
+    max-width: 1140px;
+}
+.wwd-tab  .tab-content{
+padding: 50px 165px;
+}
+.wwd-content-sec{
+    padding-top: 40px;
+}
+.wwd-body-text {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DBDBDB;
+}
+.wwd-body-text h5 {
+    color: #123A3A;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700    ;
+    margin-bottom: 20px;
+}
+.wwd-body-text p {
+    font-size: 18px;
+    color: #4D4D4D;
+    line-height: 27px;
+    font-weight: 400;
+}
+.mt-0{
+    padding-top: 0;
+}
+.success-criteria-list {
+    list-style: circle; /* Use the desired list style */
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.success-criteria-list li::marker {
+    color: orange; 
+    font-size: 1.4em; 
+}
+.success-criteria-list li {
+    color: #123A3A;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 20px; /* Spacing between items */
+    
+}
