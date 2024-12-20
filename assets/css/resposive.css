@@ -1,3 +1,16 @@
+/* large screen */
+@media (min-width: 1440px){
+  .navbar {
+    width: auto;
+}
+.whats-new .card-container,.whats-new .news-container  {
+  left: 175px;
+}
+.button-section {
+  right: 115px;
+}
+}
+
 /* Ipad pro */
 @media (min-width: 1366px) and (max-width: 1367px) {
   .country-flags {
@@ -180,7 +193,48 @@
     width: 360px;
   }
 }
-/* Lanscap */
+/* landscape */
+@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+  .info-section .info-section-card-width {
+    height: auto;
+    width: 33.33333333%;
+}
+.info-card p {
+  height: 15vh;
+}
+.resource-card .resource-card-img img {
+  width: 300px;
+  height: 300px;
+}
+.resource-card-container .col {
+  width: 300px;
+  /* height: 512px; */
+}
+.resource-card .card-body .card-title {
+  height: 17vh;
+}
+}
+@media only screen and (min-width: 1179px) and (max-width: 1180px) {
+  .resource .resource-container {
+    left: 0;
+}
+.whats-new .news-container ,.whats-new .card-container{
+  left: 100px;
+}
+.whats-new .card-container{
+  overflow: visible;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+  width: 800px;
+}
+.button-section {
+  right: 50px;
+}
+.what-we-do .container {
+  left: 100px;
+  top: 230px;
+}
+}
 /* Ipad air */
 @media only screen and (min-width: 820px) and (max-width: 1180px) {
   .footer-location-align {
@@ -844,6 +898,7 @@
 /* smaller mobile */
 @media only screen and (max-width: 430px) {
   .mCSB_scrollTools.mCSB_scrollTools_horizontal {
-    width: 210px;
+    /* width: 210px; */
+    width: 178px;
   }
 }
