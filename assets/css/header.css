@@ -168,6 +168,9 @@ nav {
   height: 40px;
   border: 1px solid #f58923;
   border-radius: 20px;
+  padding: 9px 50px 15px 20px;
+  outline: none;
+  cursor: pointer;
 }
 .search-bar {
   background-image: url(../img/Group.png);
@@ -182,6 +185,7 @@ nav {
   font-size: 12px;
   line-height: 14.4px;
   margin-bottom: 13px !important;
+  /* padding-left: 12px; */
 }
 .search {
   margin-left: 30px;
@@ -258,7 +262,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 15px;
   }
   nav {
-    height: 115px !important;
+    height: 90px !important;
     padding: 7px 10px !important;
   }
   .search .search-bar {

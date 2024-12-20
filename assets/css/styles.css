@@ -41,6 +41,7 @@ body {
   color: #123a3a;
   border: 1px solid #123a3a;
   width: 138.2px;
+  margin-left: 10px;
 }
 /* Headings */
 .main-title {
@@ -103,19 +104,18 @@ body {
   /* right: 200px; */
   right: 174px;
   z-index: 3;
-  padding: 40px 60px 51px 72px;
+  padding: 40px 54px 51px 72px;
   margin-bottom: 1px;
   /* padding: 50px 62px 50px 84px; */
 }
 .about .about-text p {
-  padding: 20px 0 39px 0;
+  padding: 20px 0 39px 10px;
   font-size: 18px;
   line-height: 21.6px;
 }
 .about-text-center {
-  /* width: 809.9px; */
-  width: 797.9px;
-  height: 329.7px;
+  width: 809px;
+  height: 317px;
   background-color: #ffffff;
 }
 .about .flex-grow-1 {
@@ -136,7 +136,7 @@ body {
   left: 13px;
   width: 40px;
   /* height: 99%; */
-  height: 325.6px;
+  height: 312px;
   background-image: url("../img/left-border.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,8 +148,9 @@ body {
   width: 524px;
   height: 524px;
 }
+
 .about-text .main-title {
-  /* padding: 10px 0; */
+  padding: 10px;
 }
 /* What we do */
 .what-we-do {
