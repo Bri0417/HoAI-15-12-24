@@ -56,7 +56,7 @@
     max-width: 1140px;
 }
 .wwd-tab .tab-content {
-    padding: 50px 165px;
+    padding: 50px 153px;
 }
 .wwd-content-sec {
     padding-top: 40px;
@@ -64,6 +64,9 @@
 .wwd-body-text {
     padding-bottom: 40px;
     border-bottom: 1px solid #dbdbdb;
+}
+.wwd-body-text-bn {
+    border-bottom: none;
 }
 .wwd-body-text h5 {
     color: #123a3a;
@@ -149,4 +152,181 @@
 padding: 10px;
 width: 80px;
 height: 80px;
+}
+.piller-line {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    width: 1116px;
+    left: -165px;
+    padding-bottom: 10px;
+}
+.piller-heading-sec {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.count-piller {
+    width: 98.1px;
+    height: 85px;
+    background: url("../img/what-we-do/orange-bg.png");
+    border-radius: 50%;
+    border-radius: 50%;
+    background-position: center;
+    text-align: center;
+    color: #000000;
+}
+.count-piller .count{
+    font-size: 32.3px;
+    line-height: 38.76px;
+    font-weight: 900;
+    color: #000000;
+}
+.count-piller .piller{
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 900;
+    color: #000000;
+}
+.count-pos {
+    margin-top: 8px;
+}
+.piller-heading-sec .title-piller{
+    color: #123A3A;
+    font-size: 22px;
+    line-height: 26.4px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FF7E00;
+    width: 100%;
+}
+.piller-image{
+    padding: 30px 0;
+}
+.piller-image img {
+    width: 810px;
+    height: 455.63px;
+}
+.piller-para p{
+    margin-bottom: 20px;
+}
+.piller-readmore .pre-btn {
+    border: 1px solid #000;
+    color: #000;
+    width: 100px;
+    height: 34px;
+    margin-top: 10px;
+}
+.piller-2-section .wwd-body-text {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.piller-download{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.piller-download img{
+    width: 16px;
+    height: 18px;
+}
+.piller-pdf {
+    margin-top: 15px;    
+    align-items: center;
+    gap: 15px;
+}
+.pdf-title p{
+    border-bottom: none;
+}
+.piller-2-section .wwd-body-text:last-child {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.pdf-title a{
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 28px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.pdf-title a:hover{
+color: #FF7E00;
+}
+
+/*  Priority Package */
+.priority .wwd-body-text h5{    
+    color: #123A3A;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.priority .wwd-body-text p{
+    margin-bottom: 20px;
+}
+/* table */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling for small screens */
+    margin: 20px 0;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.custom-table thead {
+    background-color: #f8f8f8;
+}
+
+.custom-table th {
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-table tbody .section-title {
+    background-color: #ffe8a1; /* Highlighted section header */
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternating row color */
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.custom-table td {
+    vertical-align: top;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .custom-table th,
+    .custom-table td {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .custom-table tbody .section-title {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
 }

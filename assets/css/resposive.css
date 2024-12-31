@@ -1,12 +1,12 @@
 /* large screen */
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
   .navbar {
     width: auto;
-}
-.whats-new .card-container,.whats-new .news-container  {
-  left: 175px;
-}
-
+  }
+  .whats-new .card-container,
+  .whats-new .news-container {
+    left: 175px;
+  }
 }
 
 /* Ipad pro */
@@ -196,42 +196,43 @@
   .info-section .info-section-card-width {
     height: auto;
     width: 33.33333333%;
-}
-.info-card p {
-  height: 15vh;
-}
-.resource-card .resource-card-img img {
-  width: 300px;
-  height: 300px;
-}
-.resource-card-container .col {
-  width: 300px;
-  /* height: 512px; */
-}
-.resource-card .card-body .card-title {
-  height: 17vh;
-}
+  }
+  .info-card p {
+    height: 15vh;
+  }
+  .resource-card .resource-card-img img {
+    width: 300px;
+    height: 300px;
+  }
+  .resource-card-container .col {
+    width: 300px;
+    /* height: 512px; */
+  }
+  .resource-card .card-body .card-title {
+    height: 17vh;
+  }
 }
 @media only screen and (min-width: 1179px) and (max-width: 1180px) {
   .resource .resource-container {
     left: 0;
-}
-.whats-new .news-container ,.whats-new .card-container{
-  left: 100px;
-}
-.whats-new .card-container{
-  overflow: visible;
-}
-.mCSB_scrollTools.mCSB_scrollTools_horizontal {
-  width: 800px;
-}
-.button-section {
-  right: 50px;
-}
-.what-we-do .container {
-  left: 100px;
-  top: 230px;
-}
+  }
+  .whats-new .news-container,
+  .whats-new .card-container {
+    left: 100px;
+  }
+  .whats-new .card-container {
+    overflow: visible;
+  }
+  .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 800px;
+  }
+  .button-section {
+    right: 50px;
+  }
+  .what-we-do .container {
+    left: 100px;
+    top: 230px;
+  }
 }
 /* Ipad air */
 @media only screen and (min-width: 820px) and (max-width: 1180px) {
@@ -270,6 +271,15 @@
 }
 /* Tablet and ipads */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    margin-right: 80px;
+  }
+  .nav-container {
+    display: inline-block !important;
+  }
   .about-text-center {
     width: 500px;
     height: auto;
@@ -403,10 +413,14 @@
     height: auto;
     background: #fff;
     max-height: max-content;
-    position: fixed;
+    position: absolute;
     right: 0px;
     top: 90px;
     width: 100%;
+    padding: 20px;
+  }
+  .search-bar {
+    left: -12px;
   }
   .footer-collection {
     justify-content: unset;
