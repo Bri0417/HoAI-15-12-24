@@ -11,7 +11,7 @@
       scrollButtons:{ enable: true }
       });
   });
-})(jQuery);
+});
 
 // what we do tab
 
@@ -34,5 +34,5 @@
     });
 });
 
-})(jQuery);
+});
 

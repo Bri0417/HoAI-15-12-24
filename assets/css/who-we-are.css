@@ -108,7 +108,7 @@
 .container-common-width {
     width: 810px;
     position: relative;
-    left: 10.2rem;
+    left: 140px;
 }
 .following-country-card {
     grid-template-columns: repeat(2, 1fr);

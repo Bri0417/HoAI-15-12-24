@@ -1,58 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Horn of Africa Initiative</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;700&family=Qwigley&family=Source+Sans+3:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/who-we-are.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/resposive.css" />
-    <link rel="stylesheet" href="assets/css/sidebar.css" />
-  </head>
 
-  <body class="who-we-are-main">
-    <header></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horn of Africa Initiative</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;700&family=Qwigley&family=Source+Sans+3:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/who-we-are.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/resposive.css" />
+  <link rel="stylesheet" href="assets/css/sidebar.css" />
+</head>
 
-    <div class="banner">
-      <div class="container banner-container">
-        <h1>Who We Are</h1>
-      </div>
+<body class="who-we-are-main fixed-filter">
+  <header></header>
+
+  <div class="banner common-banner-wrapper">
+    <div class="container banner-container">
+      <h1>Who We Are</h1>
     </div>
-<div class="container-fluid">
-    <!-- Glance --------------------------------------->
-    <!-- <div class="sidebar">
-      <nav class="nav-sidebar">
-        <a href="#section1" class="menu-item">At a Glance</a>
-        <a href="#section2" class="menu-item">Member States</a>
-        <a href="#section3" class="menu-item"> Ministerial Platform</a>
-        <a href="#section4" class="menu-item">Permanent Observers</a>
-        <a href="#section5" class="menu-item"> Development Partners</a>
-        <a href="#section6" class="menu-item"> The Secretariat</a>
-      </nav>
-    </div> -->
-    <aside class="sidebar">
+  </div>
+  <div class="container-fluid">
 
-      <ul class="nav-sidebar">
-        <li><a href="#section1" class="menu-item active">At a Glance</a></li>
+    <aside class="sidebar">
+      <ul class="nav-sidebar common-left-aside">
+        <li><a href="#section1" class="menu-item">At a Glance</a></li>
         <li> <a href="#section2" class="menu-item">Member States</a></li>
         <li> <a href="#section3" class="menu-item">Ministerial Platform</a></li>
         <li><a href="#section4" class="menu-item">Permanent Observers</a></li>
         <li><a href="#section5" class="menu-item">Development Partners</a></li>
-        <li> <a href="#section6" class="menu-item">The Secretariat</a></li>
       </ul>
     </aside>
-
-    <section id="section1" class="content-section">
+    <!-- Glance --------------------------------------->
+    <section id="section1" class="content-section common-right-content">
       <div class="container glance-container">
         <div class="section-content">
           <h1 class="section-heading">Horn of Africa Initiative at a Glance</h1>
@@ -107,7 +92,7 @@
     </section>
 
     <!-- Member States --------------------------------->
-    <section class="member-state content-section" id="section2">
+    <section  id="section2" class="member-state content-section">
       <div class="container member-states-container container-common-width">
         <h1 class="section-heading">Member States</h1>
         <div class="member-states-cont">
@@ -254,7 +239,7 @@
       </div>
     </section>
     <!-- Ministerial Platform -------------->
-    <section class="ministerial-platform content-section" id="section3">
+    <section id="section3" class="ministerial-platform content-section">
       <div class="container container-common-width">
         <h1 class="section-heading">Ministerial Platform</h1>
         <div class="ministerial-platform-para">
@@ -356,7 +341,7 @@
       </div>
     </section>
     <!-- Permenmt ------------------------>
-    <section class="member-state permenmt content-section" id="section4">
+    <section id="section4" class="member-state permenmt content-section">
       <div class="container member-states-container container-common-width">
         <h1 class="section-heading">Permanent Observers</h1>
         <div class="member-states-cont">
@@ -391,10 +376,7 @@
       </div>
     </section>
     <!-- Development Partners -->
-    <section
-      class="member-state development-partners content-section"
-      id="section5"
-    >
+    <section  id="section5" class="member-state development-partners content-section">
       <div class="container member-states-container container-common-width">
         <h1 class="section-heading">Development Partners</h1>
         <div class="member-states-cont">
@@ -524,11 +506,101 @@
         </div>
       </div>
     </section>
-</div>
-    <footer></footer>
-    <script src="assets/js/dynamicLoad.js"></script>
-    <script src="assets/js/sidebar.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  </div>
+  <!-- Footer -->
+  <footer class="site-footer footer">
+    <div class="container">
+      <div class="row">
+        <!-- Logo and Address Section -->
+        <div class="col-md-12 m-by footer-logo-sec">
+          <div class="footer-logo">
+            <img src="assets/img/footer-logo.png" alt="Horn of Africa Initiative Logo">
+          </div>
+        </div>
+      </div>
+      <div class="row footer-collection">
+        <div class="col-md-4 footer-location-align tab-width">
+          <div class="footer-location">
+            <h4>Location</h4>
+            <h5>Horn of Africa Secretariat</h5>
+            <p>
+              Ministry of Finance, King George Avenue, Sidist<br>
+              Kilo, Yekatit 12 Square, MoF Cooperation <br>
+              building, 2nd Floor – 204, Arada Sub-city, <br>
+              Woreda 11/12, Addis Ababa, Ethiopia
+            </p>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>secretariat@hoainitiative.org<br>Phone: 0000 0000</p>
+          </div>
+        </div>
+        <!-- Quick Links Section -->
+        <div class="col-md-4 tab-width quick-links-section">
+          <div class="quick-links">
+            <ul class="footer-links">
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+            <ul class="footer-links">
+              <li><a href="#">Trust Fund</a></li>
+              <li><a href="#">What’s New</a></li>
+              <li><a href="#">Legal Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Newsletter Section -->
+        <div class="col-md-4 tab-width-subscribe">
+          <div class="subscribe">
+            <h4>SUBSCRIBE OUR NEWSLETTER</h4>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="social-icons">
+            <h4>Follow Us</h4>
+            <div class="social-img">
+              <a href="#"><img src="assets/img/x.png" alt="Twitter"></a>
+              <a href="#"><img src="assets/img/f.png" alt="Facebook"></a>
+              <a href="#"><img src="assets/img/in.png" alt="LinkedIn"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="container-fluid copyrights">
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="copy-rights">
+            <p>All Rights Reserved 2023 by Horn of Africa Initiative</p>
+          </div>
+          <div class="country-flags">
+            <img src="assets/img/flag-1.png" alt="Country Flag">
+            <img src="assets/img/flag-2.png" alt="Country Flag">
+            <img src="assets/img/flag-3.png" alt="Country Flag">
+            <img src="assets/img/flag-4.png" alt="Country Flag">
+            <img src="assets/img/flag-5.png" alt="Country Flag">
+            <img src="assets/img/flag-6.png" alt="Country Flag">
+            <img src="assets/img/flag-7.png" alt="Country Flag">
+            <!-- Add more flags as needed -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+  <script src="assets/js/dynamicLoad.js"></script>
+  <script src="assets/js/sidebar.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
 </html>

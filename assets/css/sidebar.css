@@ -21,11 +21,11 @@
 
 .nav-sidebar .menu-item {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 0px;
   text-decoration: none;
   color: #333;
   font-size: 16px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: border-bottom 0.3s, color 0.3s;
 }
 
 .nav-sidebar .menu-item:hover {
@@ -34,10 +34,36 @@
 }
 
 .nav-sidebar .menu-item.active {
-  background-color: #007bff;
-  color: #fff;
+  border-bottom: 2px solid #f58923;
+  color: #000;
 }
 .sidebar ul {
-  margin-top: 5rem;
+  margin-top: 3rem;
   list-style: none;
+}
+
+/*  */
+.common-left-aside.fixed {
+  position: fixed;
+  top: 110px;
+  left: calc(50% - 570px);
+}
+.common-left-aside.bottom {
+  bottom: 80px;
+  top: auto;
+  position: absolute;
+}
+.common-left-aside {
+  position: absolute;
+  /* top: 0; */
+  float: left;
+  max-width: 240px;
+  cursor: default;
+}
+.common-left-aside {
+  z-index: 2;
+}
+.menu-item.active {
+  color: #007bff; /* Active menu item color */
+  font-weight: bold; /* Optional, to highlight active menu item */
 }
