@@ -348,7 +348,7 @@
   padding: 10px 0px;
 }
 /* Responsive design for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .custom-table th,
   .custom-table td {
     font-size: 14px;
@@ -359,4 +359,40 @@
     font-size: 16px;
     padding: 8px 10px;
   }
+  .wwd-tab .nav-tabs {
+    gap: 15px;
+}
+.wwd-tab .tab-content {
+  padding: 35px 15px;
+}
+.country-flag-colloection {
+  grid-template-columns: repeat(2, 1fr);
+}
+.partners-logo-colloection {
+  grid-template-columns: repeat(1, 1fr);
+}
+.piller-line {
+  width: 320px;
+  left: 0;
+}
+.piller-2-section .wwd-body-text {
+  padding-top: 10px;
+}
+.piller-image img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.count-piller {
+  width: 120px;
+}
+.piller-heading-sec .title-piller {
+  font-size: 21px;
+}
+.main-what-we-do .banner {
+  height: 160px;
+}
+.wwd-tab .tab-content-container {
+  padding: 0;
+}
 }
