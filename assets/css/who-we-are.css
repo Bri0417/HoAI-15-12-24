@@ -303,6 +303,9 @@
 .sidebar {
     left: 2rem !important;
 }
+.container-fluid{
+    padding: 0;
+}
 }
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {

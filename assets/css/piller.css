@@ -1,0 +1,99 @@
+.pillers .banner {
+  background-image: url(../img/what-we-do/piller-1.jpg);
+}
+.piller2 .banner {
+  background-image: url(../img/what-we-do/piller-2-banner.jpg);
+}
+.piller3 .banner {
+  background-image: url(../img/what-we-do/piller-3-banner.jpg);
+}
+.piller4 .banner {
+  background-image: url(../img/what-we-do/piller-4-banner.jpg);
+}
+.pillers .piller-container {
+  width: 810px;
+  max-width: 100%;
+  padding: 0;
+}
+.piller-back-btn {
+  display: flex;
+  justify-content: end;
+}
+.back-btn {
+  margin: 29px 0;
+  border: 1px solid #000;
+  color: #000;
+}
+.piller-section-head h2 {
+    color: #123A3A;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.piller-block-note .piller-sm-note{
+    color: #4D4D4D;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-bottom: 20px;
+}
+.piller-1-text-block .sub-title{
+    margin-top: 20px;
+    color: #123A3A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.piller-1-text-block .sub-title:nth-of-type(1){
+    margin-top: 20px;
+}
+.piller-1-text-block .piller-img{
+    width: 810px;
+    height: 405.15px;
+    padding-bottom: 30px;
+}
+.piller-1-text-block {
+  margin-bottom: 50px;
+}
+.piller4 .piller-1-text-block .piller-img {
+  height: auto;
+}
+/* Green card */
+.mr-0 {
+  margin-right: 0;
+}
+.piller-1-green-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.piller-1-green-card .piller-1-green-card-body {
+  width: 390px;
+  height: 252px;
+  padding: 50px;
+  background-color: #123a3a;
+  border-radius: 10px;
+}
+.p-tb {
+  padding: 85px 50px !important;
+}
+.piller-1-green-card .piller-1-green-card-body p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.piller-1-green-card .piller-1-green-card-body h2 {
+  color: #ff7e00;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.piller-1-green-card .piller-1-green-card-body span {
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #ffff;
+  margin-right: 30px;
+}
+.piller-1-green-card .piller-1-green-card-body:l span {
+}
